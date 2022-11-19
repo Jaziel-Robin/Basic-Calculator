@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link type="image/png" sizes="16x16" rel="icon" href="img/calculator-icon.png">
+	<script src="js/script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+	<div class="container my-4">
+
+		<div class="calculator card">
+
+			<input type="text" class="calculator-screen z-depth-1" value="0" disabled />
+
+			<div class="calculator-keys">
+
+				<button id="add" type="button" class="operator btn btn-info" value="+">+</button>
+				<button id="sub" type="button" class="operator btn btn-info" value="-">-</button>
+				<button id="mul" type="button" class="operator btn btn-info" value="*">&times;</button>
+				<button id="div" type="button" class="operator btn btn-info" value="/">&divide;</button>
+
+				<button id="seven" type="button" value="7" class="btn btn-light waves-effect">7</button>
+				<button id="eight" type="button" value="8" class="btn btn-light waves-effect">8</button>
+				<button id="nine" type="button" value="9" class="btn btn-light waves-effect">9</button>
+
+
+				<button id="four" type="button" value="4" class="btn btn-light waves-effect">4</button>
+				<button id="five" type="button" value="5" class="btn btn-light waves-effect">5</button>
+				<button id="six" type="button" value="6" class="btn btn-light waves-effect">6</button>
+
+
+				<button id="one" type="button" value="1" class="btn btn-light waves-effect">1</button>
+				<button id="two" type="button" value="2" class="btn btn-light waves-effect">2</button>
+				<button id="three" type="button" value="3" class="btn btn-light waves-effect">3</button>
+
+
+				<button id="zero" type="button" value="0" class="btn btn-light waves-effect">0</button>
+				<button id="dec" type="button" class="decimal function btn btn-secondary" value=".">.</button>
+				<button id="ce" type="button" class="clear-entry function btn btn-danger btn-sm" value="clear-entry">CE</button>
+				<button id="eq" type="button" class="equal-sign operator btn btn-default" value="=">=</button>
+
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
